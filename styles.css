@@ -1,8 +1,10 @@
 .container {
     font-family: Source Code Pro, monospace;
     background-color: #ba9b62;
+    margin: 20px;
+    padding: 10px;
 }
-img {
+#Jim {
     float: right;
     border-radius: 20px;
     padding: 5px;
@@ -43,10 +45,6 @@ p {
     margin: 30px;
     border-radius: 25px;
     z-index: 1;
-}
-.container {
-    margin: 20px;
-    padding: 10px;
 }
 .photo1 {
     padding: 90px;
