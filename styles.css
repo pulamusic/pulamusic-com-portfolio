@@ -15,9 +15,9 @@ img {
     border: 1px solid black;
     border-radius: 20px;
 }
-body {
+/*body {
 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/Heliocentric.jpg);
-    text-align: center;
+    text-align: center;*/
 }
 button {
     border: 2px solid black;
@@ -26,12 +26,12 @@ button {
     padding: 10px;
     margin: 10px;
     background-color: #847043;
-    font-family: Source Code Pro, monospace;
+    
 }
 p {
     padding: 10px;
     margin: 10px;
-    font-family: Source Code Pro, monospace;
+    
 }
 .aniBox {
     background: #847043;
