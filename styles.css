@@ -1,10 +1,16 @@
-body {
+.container {
     font-family: Source Code Pro, monospace;
     background-color: #ba9b62;
 }
 img {
     float: right;
     border-radius: 20px;
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.navbar {
+    float: left;
+    position: absolute;
+    width: 75px;
+    background-color: 
 }
