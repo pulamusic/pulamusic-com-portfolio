@@ -11,6 +11,7 @@ img {
 .navbar {
     float: left;
     position: absolute;
-    width: 75px;
-    background-color: 
+    width: 110px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
