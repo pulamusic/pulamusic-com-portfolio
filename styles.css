@@ -1,9 +1,10 @@
 body {
     font-family: Source Code Pro, monospace;
+    background-color: #ba9b62;
 }
 img {
     float: left;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     margin: 10px;
 }
