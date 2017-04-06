@@ -1,3 +1,6 @@
 body {
     font-family: Source Code Pro, monospace;
 }
+img {
+    float: left;
+}
