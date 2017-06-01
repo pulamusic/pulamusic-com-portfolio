@@ -1,0 +1,50 @@
+body {
+  font-family: Source Code Pro, monospace;
+  text-align: left;
+  background_image: url(http://fc04.deviantart.net/fs70/f/2011/192/e/c/blue_summer_skies_by_perbear42-d3loh0v.jpg);/*for some reason the default background image isn't working. Neither are the background images from the switch statement in js. Frustration builds.*/
+}
+h1 {
+  text-align: center;
+  padding: 65px;
+}
+footer {
+  text-align: center;
+  padding: 60px;
+  font-size: 18px;
+  margin: 175px 25px 10px 25px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+   padding: 10px;
+}
+#city {
+  font-size: 25px;
+  padding: 15px;
+}
+#fTemp {
+  font-size: 55px;
+  border: 1px solid #847043;
+  border-radius: 20px;
+}
+#weatherType {
+  font-size: 25px;
+}
+#windSpeed {
+  font-size: 25px;
+}
+#weather {
+  border-top: 1px solid #847043;
+  padding: 10px;
+}
+span {
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  margin: 10px 10px 10px 55px;
+  border: 1px solid #847043;
+  border-radius: 20px;
+  cursor: pointer;
+}
