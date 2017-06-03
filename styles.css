@@ -28,12 +28,12 @@ button {
     padding: 10px;
     margin: 10px;
     background-color: #847043;
-    
+
 }
 p {
     padding: 10px;
     margin: 10px;
-    
+
 }
 .aniBox {
     background: #847043;
@@ -52,4 +52,6 @@ p {
     width: 600px;
     text-align: center;
 }
-    
+.divider {
+  text-align: center;
+}
