@@ -12,7 +12,7 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body onload="newQuote()">
         <div class="container">
             <div class="jumbotron">
                 <h1>Jim Carroll's portfolio</h1>
@@ -29,17 +29,26 @@
                 <p>My name is Jim Carroll. I am an academic and musician living in Western Massachusetts. Academically I specialize in the cultural history of some musicians associated with the Black Arts and Black Power movements of the 1960s and 1970s. Musically, I play jazz and blues guitar, and I gig far too inoften.</p>
                 <p>And no, I am not the <a href="http://www.catholicboy.com/" target="_blank" style="text-decoration: none">Jim Carroll</a> who wrote <cite><a href="https://www.amazon.com/Basketball-Diaries-Classic-Growing-Streets/dp/0140100180/ref=sr_1_1?s=books&ie=UTF8&qid=1488741338&sr=1-1&keywords=basketball+diaries" target="_blank" style="text-decoration: none">The Basketball Diaries</a></cite>; nor am I the <a href="http://www.jamescarroll.net/JAMESCARROLL.NET/WELCOME.html" target="_blank" style="text-decoration: none">James Carroll</a> who writes for the <a href="https://www.bostonglobe.com/contributors/jcarroll" target="_blank" style="text-decoration: none">Boston Globe</a>. It is a handsome name though, isn't it?</p>
 
+                <!--Sun Ra quote generator-->
+                <div class="aside">
+                  <aside id="quote">
+                    <div id="quoteDisplay"; onmouseover="this.style.color=#c99393"; onmouseout="this.style.color=#847043"></div>
+	                   <button onclick="newQuote()">new quote</button>
+	                   <script src="script2.js"></script>
+                  </aside>
+                </div>
+
                 <div class="divider">--<>--</div>
 
-                <div class="section col-md-3">
+                <div class="section col-md-8">
                   <h3><a href="page2.html">teaching</a></h3>
                   <p>This page includes links to class syllabi and teaching materials. It is meant to be representative of the materials I use in class.</p>
                 </div>
-                <div class="section col-md-3">
+                <div class="section col-md-8">
                   <h3><a href="page3.html">scholarship</a></h3>
                   <p>This page includes a summary of and link to my doctoral dissertation, as well as a list of my conference presentations.</p>
                 </div>
-                <div class="section col-md-3">
+                <div class="section col-md-8">
                   <h3><a href="page4.html">music</a></h3>
                   <p>This page include links to sound files as well as some of my scores. In addition, I have included a few extras having to do with musicians I admire.</p>
                 </div>
