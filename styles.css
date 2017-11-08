@@ -58,12 +58,16 @@ button {
   border-radius: 10px;
   margin: 5px;
   height: 200px;
+  float: left;
+  box-shadow: 4px 5px 1px 1px;
 }
 .syllabi {
   border: 1px solid black;
   border-collapse: collapse;
   border-radius: 10px;
   height: 200px;
+  margin: 5px;
+  box-shadow: 4px 5px 1px 1px;
 }
 .aside {
   float: right;
