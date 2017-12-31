@@ -1,3 +1,6 @@
+body p {
+    font-size: 16px;
+}
 .container {
     font-family: Source Code Pro, monospace;
     background-color: #ba9b62;
