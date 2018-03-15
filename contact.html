@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Simonetta" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="images/favicon.ico"/>
+  </head>
+  <body>
+
+    <!-- Nav section -->
+    <nav class="navbar navbar-expand-sm transparent navbar-dark p-3 fixed-top">
+      <div class="container">
+        <!-- Navbar Brand -->
+        <a href="index.html" class="navbar-brand">
+          Jim Carroll
+        </a>
+        <!-- Toggler -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="index.html#banner" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#areas" class="nav-link">Professional Areas</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html#portfolio" class="nav-link">Development Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Contact form -->
+    <section class="contact-form col-lg-12">
+      <div class="container">
+        <form method="POST" action="https://formspree.io/jim@pulamusic.com">
+          <legend>Please send me an email</legend>
+          <p>
+            <input type="email" name="email" placeholder="Your email" class="email col-sm-4 col-md-6">
+          </p>
+          <p>
+            <textarea name="message" placeholder="Your message" class="message col-sm-4 col-md-6"></textarea>
+          </p>
+          <p>
+            <button type="submit" class="btn btn-lg btn-outline-warning my-2">Send</button>
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
