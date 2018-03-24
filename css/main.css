@@ -33,8 +33,9 @@ body {
   margin: 20px auto;
 }
 
-#accordion-section a {
+#accordion-section .card-header a {
 	text-decoration: none;
+  color: #CED0CE;
 }
 
 #accordion-section .card-header {
