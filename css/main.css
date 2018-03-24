@@ -32,3 +32,12 @@ body {
   border-radius: 10px;
   margin: 20px auto;
 }
+
+#accordion-section a {
+	text-decoration: none;
+	color: #CED0CE;
+}
+
+#accordion-section .card-header {
+	background-color: #ad533b;
+}

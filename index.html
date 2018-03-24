@@ -56,30 +56,69 @@
       </div>
     </section>
 
-    <!-- Professional areas section -->
-    <section id="areas" class="py-5 bg-dark">
+    <!-- Professional areas/Accordion section -->
+    <section id="accordion-section" class="bg-secondary py-5">
       <div class="container">
-        <h1 class="text-center text-white">Professional Areas</h1>
-        <div class="row align-items-center text-center">
-          <div class="col-sm-12 col-md-6 col-lg-4 text-white my-3 d-flex">
-            <i class="fa fa-graduation-cap fa-5x mr-3 align-self-center"></i>
-            <div class="inner-text">
-              <h1 class="my-3">Academics</h1>
-              <p class="lead">I am a cultural historian, specializing in African American and African diasporic music history - as such, I span the academic disciplines of Africana studies, musicology, and history. My doctoral dissertation is titled <a href="resources/Carroll Dissertation Composing the African Atlantic.pdf" target="_blank"><i>Composing the African Atlantic: Sun Ra, Fela Anikulapo-Kuti, and the Poetics of African Diasporic Composition</i></a>. Please, if you are interested, take a look at my <a href="resources/James Carroll Academic CV.pdf" target="_blank">academic CV</a> (current as of March 2018).</p>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <img src="images/JimAndZanaya.jpg" alt="Masonry 1" class="img-fluid">
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 text-white my-3 d-flex">
-            <i class="fa fa-music fa-5x mr-3 align-self-center"></i>
-            <div class="inner-text">
-              <h1 class="my-3">Music</h1>
-              <p class="lead">Musically, I play blues and jazz guitar, and I gig far too little. In addition, I compose music, having addressed various styles from classical to bebop to big band to Afrobeat. You can listen to some of my music on <a href="https://www.reverbnation.com/jimcarroll?profile_view_source=header_icon_nav" target="_blank"><strong>ReverbNation.com</strong></a>; I am working toward posting more music as well as some of my scores.</p>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 mx-auto col-lg-4 text-white my-3 d-flex">
-            <i class="fa fa-desktop fa-5x mr-3 align-self-center"></i>
-            <div class="inner-text">
-              <h1 class="my-3">Web Development</h1>
-              <p class="lead">I am a self-taught web developer, having read a few books on the subject and completed a number of online tutorials. My ultimate goal with coding is to use these skills in my academic work, posting my writing and teaching materials online and participating in the broad field of digital humanities. Please check out my partial web development portfolio below.</p>
+          <div class="col-md-6 my-5">
+            <div id="accordion" role="tablist">
+              <!-- Card One -->
+              <div class="card">
+                <!-- Card Header -->
+                <div class="card-header" id="headingOne" role="tab">
+                  <h5 class="mb-0 text-uppercase text-center">
+                    <a href="#collapseOne" data-toggle="collapse">
+                      <i class="fas fa-hand-point-down mr-1"></i>
+                      Academics
+                    </a>
+                  </h5>
+                </div>
+                <!-- Card Body -->
+                <div id="collapseOne" class="collapse show" role="tabpanel" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="lead">I am a cultural historian, specializing in African American and African diasporic music history - as such, I span the academic disciplines of Africana studies, musicology, and history. My doctoral dissertation is titled <a href="resources/Carroll Dissertation Composing the African Atlantic.pdf" target="_blank"><i>Composing the African Atlantic: Sun Ra, Fela Anikulapo-Kuti, and the Poetics of African Diasporic Composition</i></a>. Please, if you are interested, take a look at my <a href="resources/James Carroll Academic CV.pdf" target="_blank">academic CV</a> (current as of March 2018).</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card Two -->
+              <div class="card">
+                <!-- Card Header -->
+                <div class="card-header" id="headingTwo" role="tab">
+                  <h5 class="mb-0 text-uppercase text-center">
+                    <a href="#collapseTwo" data-toggle="collapse">
+                      <i class="fas fa-hand-point-down mr-1"></i>
+                      Music
+                    </a>
+                  </h5>
+                </div>
+                <!-- Card Body -->
+                <div id="collapseTwo" class="collapse" role="tabpanel" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="lead">Musically, I play blues and jazz guitar, and I gig far too little. In addition, I compose music, having addressed various styles from classical to bebop to big band to Afrobeat. You can listen to some of my music on <a href="https://www.reverbnation.com/jimcarroll?profile_view_source=header_icon_nav" target="_blank"><strong>ReverbNation.com</strong></a>; I am working toward posting more music as well as some of my scores.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Card Three -->
+              <div class="card">
+                <!-- Card Header -->
+                <div class="card-header" id="headingThree" role="tab">
+                  <h5 class="mb-0 text-uppercase text-center">
+                    <a href="#collapseThree" data-toggle="collapse">
+                      <i class="fas fa-hand-point-down mr-1"></i>
+                      Web Development
+                    </a>
+                  </h5>
+                </div>
+                <!-- Card Body -->
+                <div id="collapseThree" class="collapse" role="tabpanel" data-parent="#accordion">
+                  <div class="card-body">
+                    <p class="lead">I am a self-taught web developer, having read a few books on the subject and completed a number of online tutorials. My ultimate goal with coding is to use these skills in my academic work, posting my writing and teaching materials online and participating in the broad field of digital humanities. Please check out my partial <a href="#portfolio">web development portfolio</a> below.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -165,6 +204,7 @@
         <div class="row align-items-center">
           <div class="col-12 d-flex justify-content-between">
             <a href="https://www.facebook.com/jim.carroll.10420" target="_blank"><i class="fab fa-facebook fa-5x text-warning m-3"></i></a>
+            <h3 class="mt-5">Follow me on Facebook and Twitter</h3>
             <a href="https://twitter.com/pulamusic?lang=en" target="_blank"><i class="fab fa-twitter fa-5x text-warning m-3"></i></a>
           </div>
         </div>
@@ -176,7 +216,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <h4 class="text-white text-capitalize">&copy; copyright 2018 pulamusic</h4>
+            <h4 class="text-white text-capitalize">&copy; 2018 pulamusic</h4>
           </div>
         </div>
       </div>
