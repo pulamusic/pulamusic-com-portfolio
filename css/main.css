@@ -41,3 +41,30 @@ body {
 #accordion-section .card-header {
 	background-color: #ad533b;
 }
+
+#photo-bricks .text-holder {
+	position: relative;
+	overflow: hidden;
+}
+
+#photo-bricks img {
+	opacity: 0.6;
+	transition: transform 4s ease-in-out;
+  width: auto;
+}
+
+#photo-bricks .text-holder:hover img {
+	transform: scale(1.3);
+	opacity: 1;
+}
+
+#photo-bricks .inner-text {
+	position: absolute;
+	left: 5%;
+	bottom: 0;
+	visibility: hidden;
+}
+
+#photo-bricks .text-holder:hover .inner-text {
+	visibility: visible;
+}
