@@ -47,12 +47,21 @@ body {
   padding-top: 10px;
 }
 
-#portfolio a {
+#portfolio, #powerpoint a {
   color: #847043;
   text-decoration: none;
 }
 
-#portfolio a:hover {
+#portfolio, #powerpoint a:hover {
+  color: #ad905a;
+}
+
+.jumbotron a {
+  color: #847043;
+  text-decoration: none;
+}
+
+.jumbotron a:hover {
   color: #ad905a;
 }
 
