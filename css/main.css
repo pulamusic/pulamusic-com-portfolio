@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   margin-top: 70px;
+  background-color: #91794a;
 }
 
 .max-viewport {
@@ -11,7 +12,7 @@ body {
   background-color: rgba(173, 138, 114, 0.7);
 }
 
-#banner,
+#welcome-section,
 #contact,
 #social {
   background: linear-gradient(rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)), url('../images/JimHeadshot.jpg');
@@ -50,6 +51,16 @@ body {
   margin: 20px auto;
 }
 
+#welcome-section {
+  background-color: #eae3d3;
+}
+
+#welcome-section h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 70px auto 70px auto;
+}
+
 #accordion-section .card-header a {
 	text-decoration: none;
   color: #CED0CE;
@@ -59,17 +70,17 @@ body {
 	background-color: #ad533b;
 }
 
-#portfolio .project {
+#projects .project-tile {
   border-bottom: 2px solid #847043;
   padding-top: 10px;
 }
 
-#portfolio, #powerpoint a {
+#projects, #powerpoint a {
   color: #847043;
   text-decoration: none;
 }
 
-#portfolio, #powerpoint a:hover {
+#projects, #powerpoint a:hover {
   color: #ad905a;
 }
 
@@ -80,6 +91,16 @@ body {
 
 .jumbotron a:hover {
   color: #ad905a;
+}
+
+#photo-bricks {
+  background-color: #eae3d3;
+}
+
+@media screen and (max-width: 300px) {
+    #photo-bricks {
+        display: none;
+    }
 }
 
 #photo-bricks .text-holder {

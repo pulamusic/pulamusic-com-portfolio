@@ -14,7 +14,7 @@
   <body>
 
     <!-- Nav section -->
-    <nav class="navbar navbar-expand-sm transparent navbar-dark p-3 fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-sm transparent navbar-dark p-3 fixed-top">
       <div class="container">
         <!-- Navbar Brand -->
         <a href="https://pulamusic.github.io/" class="navbar-brand">
@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="nav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a href="#banner" class="nav-link">Home</a>
+              <a href="#welcome-section" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="#accordion-section" class="nav-link">Professional Areas</a>
             </li>
             <li class="nav-item">
-              <a href="#portfolio" class="nav-link">Development Portfolio</a>
+              <a href="#projects" class="nav-link">Web Development Projects</a>
             </li>
           </ul>
         </div>
@@ -41,7 +41,7 @@
     </nav>
 
     <!-- Banner section -->
-    <section id="banner">
+    <section id="welcome-section">
       <div class="container">
         <div class="row max-viewport align-items-center text-center">
           <div class="col-md-6 d-none d-md-block">
@@ -50,15 +50,15 @@
           <div class="col-12 col-sm-6 mx-auto my-5">
             <h1 class="text-white text-uppercase name">Jim Carroll</h1>
             <h2 class="text-white">Academic, Musician &amp; Web Developer</h2>
-            <a href="https://github.com/pulamusic" target="_blank" class="btn btn-lg btn-outline-warning text-uppercase m-2 p2"><i class="fab fa-github mr-2"></i>GitHub</a>
-            <a href="https://www.linkedin.com/in/james-carroll-36001511a/" target="_blank" class="btn btn-lg btn-outline-warning text-uppercase m-2 p2"><i class="fab fa-linkedin mr-2"></i>Linkedin</a>
+            <a id="profile-link" href="https://github.com/pulamusic" target="_blank" class="btn btn-lg btn-outline-warning text-uppercase m-2 p2"><i class="fab fa-github mr-2"></i>GitHub</a>
+            <a id="profile-link" href="https://www.linkedin.com/in/james-carroll-36001511a/" target="_blank" class="btn btn-lg btn-outline-warning text-uppercase m-2 p2"><i class="fab fa-linkedin mr-2"></i>Linkedin</a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Professional areas/Accordion section -->
-    <section id="accordion-section" class="bg-secondary py-5">
+    <section id="accordion-section" class="py-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -140,107 +140,107 @@
       </div>
     </section>
 
-    <!-- portfolio section -->
-    <section id="portfolio" class="p-5 bg-light">
+    <!-- projects section -->
+    <section id="projects" class="p-5 bg-light">
       <div class="container">
         <h1 class="text-center">A Web Development Portfolio</h1>
         <div class="row">
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/Moon/" target="_blank"><img src="images/project1.png" alt="moonBlog" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/Moon/" target="_blank">moonBlog</a></h1>
             <p class="text-muted">This is a blog created using the Jekyll static-site generator, adapting a theme created by <a href="https://github.com/TaylanTatli/Moon" target="_blank">Tayan Tatli</a>.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/travel-site/" target="_blank"><img src="images/project2.png" alt="Travel Site" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/travel-site/" target="_blank">Clear View Escapes</a></h1>
             <p class="text-muted">This is a demonstration project created as part of an online coding tutorial. Note that the page has some interesting CSS and JavaScript features.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/premiumPortfolio/" target="_blank"><img src="images/project15.png" alt="Premium Portfolio" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/premiumPortfolio/" target="_blank">Premium Portfolio</a></h1>
             <p class="text-muted">This demonstration portfolio was created using Bootstrap 4, also making use of the <a href="https://isotope.metafizzy.co/" target="_blank">Isotope jQuery plugin</a>. It is quite a nice page that includes two photo carousels and a number of nice, subtle CSS transitions. Also note that this is one of the first projects I have created while using the <a href="https://coolors.co/" target="_blank">Coolors</a> website to set a color palette for styling the page.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/robofriends/" target="_blank"><img src="images/project3.png" alt="RoboFriends" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/robofriends/" target="_blank">RoboFriends</a></h1>
             <p class="text-muted">While this project is a bit goofy, it is the first app I have created using the React JavaScript library, also making use of the <a href="http://tachyons.io/" target="_blank">Tachyons</a> CSS framework as well as the <a href="https://jsonplaceholder.typicode.com/" target="_blank">jsonplaceholder</a> and <a href="https://robohash.org/" target="_blank">robohash</a> APIs.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/backgroundGenerator/" target="_blank"><img src="images/project4.png" alt="Project 4" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/backgroundGenerator/" target="_blank">Background Generator</a></h1>
             <p class="text-muted">This is a simple JavaScript app that generates the CSS code for a linear-gradient page background, taking the guessing out of the equation.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/Airspace/" target="_blank"><img src="images/project5.png" alt="Airspace Agency" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/Airspace/" target="_blank">Airspace Web Developers</a></h1>
             <p class="text-muted">This is a demonstration site created using the Jekyll static-site generator and Bootstrap CSS framework. Note that while Jekyll is most useful for creating blogs, it can also be used to create entire sites.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/Natours/" target="_blank"><img src="images/project6.png" alt="Natours" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/Natours/" target="_blank">Natours Travel Agency</a></h1>
             <p class="text-muted">This is a demo site created using only HTML and CSS. Some of the advanced CSS features might lead one to believe that there is JavaScript involved, but this is not so.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/diceGame/" target="_blank"><img src="images/project7.png" alt="Dice Game" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/diceGame/" target="_blank">Roll the Dice</a></h1>
             <p class="text-muted">This is a simple dice game created using JavaScript, HTML, and CSS. Playing it can be rather addictive.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/newsworthy/" target="_blank"><img src="images/project8.png" alt="Newsworthy" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/newsworthy/" target="_blank">Newsworthy News App</a></h1>
             <p class="text-muted">This app makes use of <a href="https://newsapi.org/" target="_blank">NewsAPI.org</a> to access news stories from several publications. It is coded mostly using JavaScript, with a minimum amount of HTML and CSS.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://face-recognition-smart-brain.herokuapp.com/" target="_blank"><img src="images/project9.png" alt="Face Recognition App" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://face-recognition-smart-brain.herokuapp.com/" target="_blank">Smart-Brain Face Recognition App</a></h1>
             <p class="text-muted">This app, deployed on Heroku, analyses web images and identifies faces within the images (currently only one face per image, but I'm working toward getting it to identify multiple faces). The app was created using React, and it has a back-end server as well as a users sign-in database.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="/PowerPointSlides.html" target="_blank"><img src="images/project10.png" alt="Face Recognition App" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="/PowerPointSlides.html" target="_blank">PowerPoint Slides for American History</a></h1>
             <p class="text-muted">While this page is not an app, it does respresent a good deal of work that I have put together in an HTML page. Just a little taste of what I do as a teacher.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://www.npmjs.com/package/jquery.linkit-test" target="_blank"><img src="images/project11.png" alt="NPM Package" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://www.npmjs.com/package/jquery.linkit-test" target="_blank">My First NPM Package</a></h1>
             <p class="text-muted">This is a dead simple jQuery plugin that automates the task of adding links to an HTML page. While it may be of limited use, it is officially my first NPM package script.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/budgety/" target="_blank"><img src="images/project12.png" alt="Budget App" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/budgety/" target="_blank">Budget App</a></h1>
             <p class="text-muted">This is a simple budgeting app that I created for a web tutorial using JavaScript, HTML, and CSS. I plan to upgrade this app at some point with a back-end database so it can store information after the close of a session.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://codepen.io/pulamusic/full/EWbxEY/" target="_blank"><img src="images/project13.png" alt="U.S. History Timeline" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://codepen.io/pulamusic/full/EWbxEY/" target="_blank">U.S. History Timeline</a></h1>
             <p class="text-muted">This is a timeline I created as a quick and dirty overview of U.S. history from first European settlement to the Civil War. It is meant to be part of an introductory lecture for American History 2, which begins its narrative with the Civil War. I used an excellent JavaScript template called <a href="http://timeline.knightlab.com/index.html" target="_blank">TimeLineJS</a> to create this page, and I put it online so the students could view it at their leisure.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://codepen.io/pulamusic/full/VpwQrr/" target="_blank"><img src="images/project14.png" alt="Sun Ra Appreciation Page" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://codepen.io/pulamusic/full/VpwQrr/" target="_blank">Sun Ra Appreciation Page</a></h1>
             <p class="text-muted">This was the first web page I created - a simple tribute page, done as a project for the FreeCodeCamp tutorial site. While it is a simple page, it has an interesting random quote generator that chooses from a number of Sun Ra quotes every time the page is refreshed or you click on a button. I guess this page also marks my first use of JavaScript.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://zero-to-mastery.github.io/resources/" target="_blank"><img src="images/project16.png" alt="Zero-to-Mastery Resources Page" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://zero-to-mastery.github.io/resources/" target="_blank">Zero-to-Mastery Resources Page</a></h1>
             <p class="text-muted">This is an open-source project I have been contributing to for a while. Started as a student driven project for a Udemy course title <a href="https://www.udemy.com/the-complete-web-developer-in-2018/learn/v4/overview" target="_blank">The Complete Web Developer in 2018: Zero to Mastery</a>, this is a growing repository of resources one can use for web development. I have been involved in adding resources and re-organizing the site, and I recently created a full web page for the project so it could be more presentable than just a repository with a series of markdown pages.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/localStorageTweets/" target="_blank"><img src="images/project17.png" alt="Local Storage of Tweets" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/localStorageTweets/" target="_blank">Local Storage of Tweets</a></h1>
             <p class="text-muted">I created this project using minimal HTML and CSS, but with more attention paid to the JavaScript. This is a project for a Udemy tutorial, created as a means of learning to use browser storage to save results after the page is refreshed, or after the page is closed and opened again.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/jekyll-base/" target="_blank"><img src="images/project18.png" alt="Local Storage of Tweets" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/jekyll-base/" target="_blank">A Freewriting Blog</a></h1>
             <p class="text-muted">This is a blog I created using the Jekyll site generator. The substance of the blog is useless to anyone but me, but this was my first experiment with a Jekyll blog. Note the minimalist structure and layout for this site - something I particularly appreciate in web design.</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/coffeeShop/" target="_blank"><img src="images/project19.png" alt="Local Storage of Tweets" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/coffeeShop/" target="_blank">Coffeeshop Demonstration Site</a></h1>
             <p class="text-muted">This is a full site created with the <a href="https://foundation.zurb.com/" target="_blank">Zurb Foundation front-end framework</a>. Notice that it has several subtle animations, a modal photo gallery, and a fully validated reservations page. Now if I could just get the PHP email to work...</p>
           </div>
-          <div class="project col-sm-6 my-3">
+          <div class="project-tile col-sm-6 my-3">
             <a href="https://pulamusic.github.io/hotelSpa/" target="_blank"><img src="images/project20.png" alt="Local Storage of Tweets" class="img-fluid rounded"></a>
             <h1 class="my-3"><a href="https://pulamusic.github.io/hotelSpa/" target="_blank">Hotel &amp; Spa Demonstration Site</a></h1>
             <p class="text-muted">This is another site created with the <a href="https://foundation.zurb.com/" target="_blank">Zurb Foundation front-end framework</a>. It has many of the same features from my coffeeshop project like a photo gallery and validated forms, but with a different design. I am currently working on this site to create a WordPress theme.</p>
@@ -254,44 +254,44 @@
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-12 d-flex justify-content-between">
-            <a href="https://www.facebook.com/jim.carroll.10420" target="_blank"><i class="fab fa-facebook fa-5x text-warning m-3"></i></a>
+            <a id="profile-link" href="https://www.facebook.com/jim.carroll.10420" target="_blank"><i class="fab fa-facebook fa-5x text-warning m-3"></i></a>
             <h3 class="mt-5">Follow me on Facebook and Twitter</h3>
-            <a href="https://twitter.com/pulamusic?lang=en" target="_blank"><i class="fab fa-twitter fa-5x text-warning m-3"></i></a>
+            <a id="profile-link" href="https://twitter.com/pulamusic?lang=en" target="_blank"><i class="fab fa-twitter fa-5x text-warning m-3"></i></a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Photo Bricks Section -->
-    <section id="photo-bricks" class="bg-secondary">
+    <section id="photo-bricks">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 col-lg-3 no-padding text-holder">
             <img src="images/JimEstherTerryAward.jpg" alt="Jim Esther Terry Award" class="img-fluid">
             <div class="inner-text">
-              <h2 class="text-white">Jim &amp; Ernest Gibson</h2>
-              <h5 class="text-white">2013 &amp; 2014 Esther Terry Dissertation Award winners</h5>
+              <h2 class="text-dark">Jim &amp; Ernest Gibson</h2>
+              <h5 class="text-dark">2013 &amp; 2014 Esther Terry Dissertation Award winners</h5>
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 no-padding text-holder">
             <img src="images/JimAndMtali.jpg" alt="Jim and Mtali" class="img-fluid">
             <div class="inner-text">
-              <h2 class="text-white">Jim &amp; Mtali</h2>
-              <h5 class="text-white">Jim &amp; Mtali Banda playing a gig for an Event at UMass</h5>
+              <h2 class="text-dark">Jim &amp; Mtali</h2>
+              <h5 class="text-dark">Jim &amp; Mtali Banda playing a gig for an Event at UMass</h5>
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 no-padding text-holder">
             <img src="images/JimJamming.jpg" alt="Jim Jamming" class="img-fluid">
             <div class="inner-text">
-              <h2 class="text-white">Jim &amp; group Jamming</h2>
-              <h5 class="text-white">Jamming on a blues with the New Africa House ensemble</h5>
+              <h2 class="text-dark">Jim &amp; group Jamming</h2>
+              <h5 class="text-dark">Jamming on a blues with the New Africa House ensemble</h5>
             </div>
           </div>
           <div class="col-sm-6 col-lg-3 no-padding text-holder">
             <img src="images/JimFace.jpg" alt="Jim Face" class="img-fluid">
             <div class="inner-text">
-              <h2 class="text-white">A Close-Up</h2>
-              <h5 class="text-white">Zanaya took this goofy picture</h5>
+              <h2 class="text-dark">A Close-Up</h2>
+              <h5 class="text-dark">Zanaya took this goofy picture</h5>
             </div>
           </div>
         </div>
@@ -312,5 +312,7 @@
     <!-- Scripts -->
     <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="scripts/bootstrap.bundle.min.js"></script>
+    <!-- freeCodeCamp testing script -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
