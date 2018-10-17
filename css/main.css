@@ -60,6 +60,10 @@ body {
   margin: 70px auto 70px auto;
 }
 
+#accordion-section {
+  background-color: #eae3d3;
+}
+
 #accordion-section .card-header a {
 	text-decoration: none;
   color: #CED0CE;
