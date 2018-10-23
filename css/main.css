@@ -11,6 +11,7 @@ body {
   background-color: rgba(173, 138, 114, 0.7);
 }
 
+/* Parallax sections */
 #welcome-section,
 #contact,
 #social {
@@ -21,6 +22,7 @@ body {
   background-size: cover;
 }
 
+/* CSS transitions */
 .name {
   transition: all 2s ease-in-out;
 }
@@ -35,9 +37,18 @@ body {
 }
 
 .headshot:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
+#projects img {
+  transition: all 2s ease-in-out;
+}
+
+#projects img:hover {
+  transform: scale(1.1);
+}
+
+/* Contact form */
 .contact-form {
   background-color: #91794a;
   padding: 10px;
@@ -50,6 +61,7 @@ body {
   margin: 20px auto;
 }
 
+/* Welcome section */
 #welcome-section {
   background-color: #eae3d3;
 }
@@ -60,6 +72,7 @@ body {
   margin: 70px auto 70px auto;
 }
 
+/* Accordion/professional areas section */
 #accordion-section {
   background-color: #eae3d3;
 }
@@ -73,6 +86,7 @@ body {
 	background-color: #ad533b;
 }
 
+/* Projects section */
 #projects .project-tile {
   border-bottom: 2px solid #847043;
   padding-top: 10px;
@@ -87,6 +101,7 @@ body {
   color: #ad905a;
 }
 
+/* Jumbotron */
 .jumbotron a {
   color: #847043;
   text-decoration: none;
@@ -96,6 +111,7 @@ body {
   color: #ad905a;
 }
 
+/* Photo bricks */
 #photo-bricks {
   background-color: #eae3d3;
 }
