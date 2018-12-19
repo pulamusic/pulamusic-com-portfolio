@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  margin-top: 70px;
+  margin-top: 71px;
 }
 
 .max-viewport {
@@ -61,6 +61,16 @@ body {
   margin: 20px auto;
 }
 
+/* Jumbotron */
+.jumbotron a {
+  color: #847043;
+  text-decoration: none;
+}
+
+.jumbotron a:hover {
+  color: #ad905a;
+}
+
 /* Welcome section */
 #welcome-section {
   background-color: #eae3d3;
@@ -69,7 +79,7 @@ body {
 #welcome-section h1 {
   text-align: center;
   padding: 20px;
-  margin: 70px auto 70px auto;
+  margin: 70px auto;
 }
 
 /* Accordion/professional areas section */
@@ -98,16 +108,6 @@ body {
 }
 
 #projects, #powerpoint a:hover {
-  color: #ad905a;
-}
-
-/* Jumbotron */
-.jumbotron a {
-  color: #847043;
-  text-decoration: none;
-}
-
-.jumbotron a:hover {
   color: #ad905a;
 }
 
@@ -147,4 +147,22 @@ body {
 
 #photo-bricks .text-holder:hover .inner-text {
 	visibility: visible;
+}
+
+/* NOTE: The following code isn't working. */
+/* Social Icons */
+#facebook {
+  color: #000;
+}
+
+#facebook:hover {
+  color: #4267B2;
+}
+
+#twitter {
+  color: #000;
+}
+
+#twitter:hover {
+  color: #4FA1F2;
 }
