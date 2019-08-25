@@ -170,6 +170,8 @@ body {
 /* Goodreads Widget */
 .gr_grid_container {
   /* customize grid container div here. eg: width: 500px; */
+  width: 500px;
+  margin: 20px auto;
 }
 
 .gr_grid_book_container {
